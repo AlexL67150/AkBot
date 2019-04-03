@@ -19,6 +19,14 @@ bot.on('message', function (message)
 
 bot.on('message', function (message) 
 {
+    if (message.content === '!ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/')
+    }
+})
+
+bot.on('message', function (message) 
+{
     if (message.content.includes ("akbot"))
     {
         message.channel.send('On parle de moi ?! :stuck_out_tongue_winking_eye:')
@@ -27,19 +35,58 @@ bot.on('message', function (message)
 
 bot.on('message', function (message) 
 {
-    if (message.content.includes ("Collection Day started!"))
+    if (message.content === '!j1-ldc')
     {
-        bot.channels.get('501324980861272066').send('<@&561304424212070431> : GDC Clash Royale, le jour de collection commence !!!');
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/1')
     }
 })
 
 bot.on('message', function (message) 
 {
-    if (message.content.includes ("New war started!"))
+    if (message.content === '!j2-ldc')
     {
-        bot.channels.get("501324980861272066").send('<@&561304424212070431> : GDC Clash Royale, la guerre est déclarée !!!');    
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/2')
     }
 })
 
+bot.on('message', function (message) 
+{
+    if (message.content === '!j3-ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/3')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!j4-ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/4')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!j5-ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/5')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!j6-ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/6')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!j7-ldc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/*midnights*-929VRGPC/wars/cwl/round/7')
+    }
+})
 
 bot.login(process.env.TOKEN);
