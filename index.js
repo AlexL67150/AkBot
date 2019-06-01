@@ -90,3 +90,69 @@ bot.on('message', function (message)
 })
 
 bot.login(process.env.TOKEN);
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc1')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/1')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc2')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/2')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc3')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/3')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc4')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/4')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc5')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/5')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc6')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/6')
+    }
+})
+
+bot.on('message', function (message) 
+{
+    if (message.content === '!fcc7')
+    {
+        message.channel.send('https://www.clashofstats.com/clans/french-clanclan-QPGVJVJC/wars/cwl/round/7')
+    }
+})
+
+bot.login(process.env.FCCTOKEN);
